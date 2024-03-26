@@ -1,0 +1,50 @@
+body {
+  padding: 3em;
+  width: 100%;
+}
+h1 {
+  color: black;
+  padding: 10px;
+  background-color: white;
+  display: inline-block;
+  margin: 0;
+}
+video {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.conteneur {
+  position: relative;
+  z-index: 1;
+}
+
+.contenu {
+  position: sticky;
+  top: 30%;
+}
+
+/* Liste des timecodes :
+Boom : 00:21 7.78%
+Feu : 01:02 11.85% */
+
+#boom {
+  height: 1200px
+}
+
+#feu {
+  height: 840px;
+}
+
+#fumee {
+  height: 1280px;
+}
+#fin {
+  height: 3000px;
+}
+
+#finDeux {
+  height: 4480px;
+}
